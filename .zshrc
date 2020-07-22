@@ -71,7 +71,7 @@ ZSH_THEME="pi"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-nvm)
+plugins=(git zsh-nvm ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,6 +89,14 @@ else
   export EDITOR='mvim'
 fi
 
+
+# Automatically quote urls
+autoload -Uz bracketed-paste-magic
+zle -N bracketed-paste bracketed-paste-magic
+
+autoload -Uz url-quote-magic
+zle -N self-insert url-quote-magic
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -99,6 +107,7 @@ fi
 #
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
+alias szsh="source ~/.zshrc"
 alias g="git"
 alias home="cd ~"
 alias lis="ls -la"
@@ -106,13 +115,5 @@ alias ws="cd /mnt/d/workspace"
 alias cs="cd /mnt/c/"
 alias ds="cd /mnt/d/"
 alias cl="clear"
+alias ydl="youtube-dl"
 
-# SSH Config
-if [ ! -S ~/.ssh/ssh_auth_sock ]; then
-  eval `ssh-agent`
-  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
-fi
-export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
-ssh-add -l > /dev/null || ssh-add
-
-# Set typewritten ZSH as a prompt
