@@ -73,6 +73,10 @@ ZSH_THEME="pi"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-nvm ssh-agent)
 
+eval "$(dircolors -p | \
+    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
+    dircolors /dev/stdin)"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
