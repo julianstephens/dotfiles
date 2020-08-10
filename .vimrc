@@ -25,6 +25,7 @@ set cursorline
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 highlight CursorLine cterm=none term=none
+highlight MatchParen ctermbg=blue guibg=lightblue cterm=italic gui=italic
 
 call plug#begin('~/.vim/plugged')
 
@@ -44,6 +45,7 @@ Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
+Plug 'andymass/vim-matchup'
 
 call plug#end()
 
@@ -171,7 +173,7 @@ endfun
 
 augroup highlight_yank
     autocmd!
-    autocmd TextYankPost * silent! lua require'vim.highlight'.on_yank("IncSearch", 50)
+    autocmd TextYankPost * silent! lua require'vim.highlight'.on_yank()
 augroup END
 
 autocmd BufWritePre * :call TrimWhitespace()

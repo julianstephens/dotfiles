@@ -2,6 +2,7 @@
 .config/
 .dotfiles.orig/
 .landscape/
+.local/
 .npb/
 .nvm/
 .npm/

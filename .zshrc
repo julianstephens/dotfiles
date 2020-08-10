@@ -120,4 +120,6 @@ alias cs="cd /mnt/c/"
 alias ds="cd /mnt/d/"
 alias cl="clear"
 alias ydl="youtube-dl"
+alias code="/mnt/c/Users/leahs/AppData/Local/Programs/'Microsoft VS Code'/bin/code"
+
 
