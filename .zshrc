@@ -2,16 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/julian/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="pi"
-#export TYPEWRITTEN_PROMPT_LAYOUT="singleline_verbose"
-#export TYPEWRITTEN_CURSOR="beam"
-#export TYPEWRITTEN_SYMBOL="$"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,11 +68,7 @@ ZSH_THEME="pi"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-nvm ssh-agent)
-
-eval "$(dircolors -p | \
-    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
-    dircolors /dev/stdin)"
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,28 +80,14 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nvim'
-else
-  export EDITOR='mvim'
-fi
-
-
-# Automatically quote urls
-autoload -Uz bracketed-paste-magic
-zle -N bracketed-paste bracketed-paste-magic
-
-autoload -Uz url-quote-magic
-zle -N self-insert url-quote-magic
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
-# Yarn Path
-# export PATH="$PATH:/opt/yarn-[version]/bin"
-
-# Python Path
-export PYTHONPATH="${PYTHONPATH}:/home/julian/.local/bin"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -116,17 +95,5 @@ export PYTHONPATH="${PYTHONPATH}:/home/julian/.local/bin"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="nvim ~/.zshrc"
-alias szsh="source ~/.zshrc"
-alias g="git"
-alias home="cd ~"
-alias lis="ls -la"
-alias ws="cd /mnt/d/workspace"
-alias cs="cd /mnt/c/"
-alias ds="cd /mnt/d/"
-alias cl="clear"
-alias ydl="youtube-dl"
-alias code="/mnt/c/Users/leahs/AppData/Local/Programs/'Microsoft VS Code'/bin/code"
-alias node=nodejs
-
-
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"

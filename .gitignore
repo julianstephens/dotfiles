@@ -15,7 +15,16 @@ dotfiles/
 usr/
 .bash_history
 .bash_logout
-.bashrc
+.bashrc.omb-uninstalled-20200819115142
+.bashrc.pre-oh-my-bash
+.node-gyp/
+.nvmrc
+.oh-my-bash/
+.osh-update
+.pylint.d/
+.sdirs
+.yarnrc
+.zshrc.omz-uninstalled-2020-08-19_09-59-39
 .histfile
 .motd_shown
 .profile

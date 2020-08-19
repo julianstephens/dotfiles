@@ -1,6 +1,4 @@
-#!/usr/bin/zsh
-emulate -LR zsh # reset zsh options
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin
+#!/usr/bin/bash
 
 function create() {
     cd
