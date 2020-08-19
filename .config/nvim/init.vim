@@ -42,11 +42,12 @@ Plug 'liuchengxu/space-vim-dark'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
-Plug 'tpope/vim-commentary'
+Plug 'preservim/nerdcommenter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
 Plug 'andymass/vim-matchup'
 Plug 'pixelneo/vim-python-docstring'
+
 call plug#end()
 
 set t_Co=256
@@ -95,13 +96,15 @@ vnoremap K :m '<-2<CR>gv=gv
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 inoremap <silent><expr> <C-space> coc#refresh()
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
 
 nmap <leader>/ <Plug>Commentary
 
 " EasyMotion navigation
 " <Leader>f{char} to move to {char}
-map  <Leader>f <Plug>(easymotion-bd-f)
-nmap <Leader>f <Plug>(easymotion-overwin-f)
+map  <Leader>c <Plug>(easymotion-bd-f)
+nmap <Leader>c <Plug>(easymotion-overwin-f)
 
 " s{char}{char} to move to {char}{char}
 nmap s <Plug>(easymotion-overwin-f2)

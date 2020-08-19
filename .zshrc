@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='nvim'
 else
   export EDITOR='mvim'
 fi
@@ -104,13 +104,19 @@ zle -N self-insert url-quote-magic
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Yarn Path
+# export PATH="$PATH:/opt/yarn-[version]/bin"
+
+# Python Path
+export PYTHONPATH="${PYTHONPATH}:/home/julian/.local/bin"
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vim ~/.zshrc"
+alias zshconfig="nvim ~/.zshrc"
 alias szsh="source ~/.zshrc"
 alias g="git"
 alias home="cd ~"
@@ -121,5 +127,6 @@ alias ds="cd /mnt/d/"
 alias cl="clear"
 alias ydl="youtube-dl"
 alias code="/mnt/c/Users/leahs/AppData/Local/Programs/'Microsoft VS Code'/bin/code"
+alias node=nodejs
 
 
