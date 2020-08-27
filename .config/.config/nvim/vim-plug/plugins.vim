@@ -23,8 +23,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'joshdick/onedark.vim'
 	" Auto pairs
 	Plug 'jiangmiao/auto-pairs'
-	" Commentary
-	Plug 'tpope/vim-commentary'
+	" NerdCommenter
+	Plug 'preservim/nerdcommenter'
 	" Auto change html tags
   	Plug 'AndrewRadev/tagalong.vim'
 	" Text navigation
@@ -33,6 +33,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'pixelneo/vim-python-docstring'
 	" Coc completion
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    " Vim Snippets
+    Plug 'honza/vim-snippets'
 call plug#end()
 	
 

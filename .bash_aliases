@@ -1,4 +1,6 @@
 alias bashconfig="nvim ~/.bashrc"
+alias bashalias="nvim ~/.bash_aliases"
+alias editor=nvim
 alias sbash="source ~/.bashrc"
 alias g="git"
 alias home="cd ~"
@@ -12,4 +14,4 @@ alias code="/mnt/c/Users/leahs/AppData/Local/Programs/'Microsoft VS Code'/bin/co
 alias initvim="nvim ~/.config/nvim/init.vim"
 alias ..="cd .."
 alias ...="cd ../.."
-#alias node=nodejs
+alias python="python3.8"

@@ -8,5 +8,10 @@
         "quitci"
       ]
     }
+  },
+  "diagnostics": {
+    "%2Fhome%2Fjulian": [
+      " "
+    ]
   }
 }

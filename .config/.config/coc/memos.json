@@ -1,1 +1,685 @@
-{}
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c0bf2bc3d408f9b3f3c8c9f0eeee7b369730c08508b8447054762c17aa2360d72f6a10354cef54b1162c742d2a08c08cef24a302f41c4792a3fe1c9839f81dd"
+      },
+      "expiry": 1598631109448
+    },
+    "/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe"
+      },
+      "expiry": 1598631109448
+    },
+    "/usr/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c0bf2bc3d408f9b3f3c8c9f0eeee7b369730c08508b8447054762c17aa2360d72f6a10354cef54b1162c742d2a08c08cef24a302f41c4792a3fe1c9839f81dd"
+      },
+      "expiry": 1598631109455
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe"
+      },
+      "expiry": 1598631109464
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c0bf2bc3d408f9b3f3c8c9f0eeee7b369730c08508b8447054762c17aa2360d72f6a10354cef54b1162c742d2a08c08cef24a302f41c4792a3fe1c9839f81dd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c0bf2bc3d408f9b3f3c8c9f0eeee7b369730c08508b8447054762c17aa2360d72f6a10354cef54b1162c742d2a08c08cef24a302f41c4792a3fe1c9839f81dd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c0bf2bc3d408f9b3f3c8c9f0eeee7b369730c08508b8447054762c17aa2360d72f6a10354cef54b1162c742d2a08c08cef24a302f41c4792a3fe1c9839f81dd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c0bf2bc3d408f9b3f3c8c9f0eeee7b369730c08508b8447054762c17aa2360d72f6a10354cef54b1162c742d2a08c08cef24a302f41c4792a3fe1c9839f81dd",
+        "type": "Unknown"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+        "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+        "type": "Unknown"
+      }
+    ],
+    "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+        "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d"
+      },
+      "expiry": 1598631111480
+    },
+    "PipEnvInformation": [
+      {
+        "pythonPath": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+        "workspaceFolder": "/mnt/d/workspace/cs3600",
+        "envName": "cs3600"
+      }
+    ],
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+      "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+      "type": "PipEnv",
+      "pipEnvWorkspaceFolder": "/mnt/d/workspace/cs3600"
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+      "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+      "type": "Unknown"
+    },
+    "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit ('cs3600': pipenv)",
+        "hash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d-46efa77687eeb71a8b43019391d4b0c7"
+      },
+      "expiry": 1598631111516
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe-d5ecaf213026b461e63d98db67fcb0c2"
+      },
+      "expiry": 1598631111516
+    },
+    "/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe-15c7f07f85067e6585be8f669a08766c"
+      },
+      "expiry": 1598631111517
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+        "info": {
+          "architecture": 3,
+          "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+          "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+          "type": "PipEnv",
+          "pipEnvWorkspaceFolder": "/mnt/d/workspace/cs3600",
+          "envName": "cs3600",
+          "displayName": "Python 3.8.2 64-bit ('cs3600': pipenv)"
+        }
+      },
+      "expiry": 1598631111524
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1598631111527
+    },
+    "/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1598631111529
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "ec39b01593e2d9dc16a6864f33f7564db52e14d6604278b857656a275c366950c6348765598bac1e7872a71eadf9b2e2176f82fa089bd1dd8eefe4af9c83f3fe",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    }
+  },
+  "coc-python|/mnt/d/workspace/cs3600": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:82514e31208b1356c993f0aec3db7d9d": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:82514e31208b1356c993f0aec3db7d9d": [
+      {
+        "architecture": 3,
+        "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+        "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+        "type": "PipEnv",
+        "pipEnvWorkspaceFolder": "/mnt/d/workspace/cs3600"
+      }
+    ],
+    "SelectedPythonPath": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+    "autoSelectedWorkspacePythonInterpreter-/mnt/d/workspace/cs3600": {
+      "architecture": 3,
+      "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+      "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+      "type": "PipEnv",
+      "pipEnvWorkspaceFolder": "/mnt/d/workspace/cs3600"
+    },
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF",
+        "fileHash": "bf92c3a2f050893ffb7439c39b153591134cbe9c21a4a95f3586af1ec2f2033d871bb85d4ced691e20bfd1b0cb714813fa9e41a2c3a17eba14ef96b0c0aa8b4d",
+        "type": "PipEnv",
+        "pipEnvWorkspaceFolder": "/mnt/d/workspace/cs3600"
+      }
+    ]
+  }
+}
