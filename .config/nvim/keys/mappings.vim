@@ -3,7 +3,7 @@ noremap <leader>s :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>Q :q!<CR>
 
-" Quick source curr file
+" Quick source current file
 nnoremap <leader>n :source %<CR>
 
 " Better window navigation
@@ -52,6 +52,10 @@ nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
 nnoremap <Leader>ee oif err != nil {<CR>log.Fatalf("%+v\n", err)<CR>}<CR><esc>kkI<esc>
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+" Python Doctring
+nnoremap <leader>d :Doctring<CR>
+nnoremap <leader>dl :DoctringLine<CR>
 
 " EasyMotion navigation
 " <Leader>f{char} to move to {char}

@@ -37,6 +37,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " Vim Snippets
     Plug 'honza/vim-snippets'
+    " Vim Bujo - Todo
+    Plug 'vuciv/vim-bujo'
 call plug#end()
 	
 
