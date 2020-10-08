@@ -1,0 +1,17 @@
+{
+  "symbols": {
+    "%2Fhome%2Fjulian": [
+      "ii"
+    ],
+    "%2Fhome%2Fjulian%2F": {
+      "config%2Fnvim%2Fkeys": [
+        "quitci"
+      ]
+    }
+  },
+  "diagnostics": {
+    "%2Fhome%2Fjulian": [
+      " "
+    ]
+  }
+}
