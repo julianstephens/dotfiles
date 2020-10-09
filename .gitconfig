@@ -1,0 +1,25 @@
+[user]
+    name = Julian Stephens
+    email = julianstephens55@gmail.com
+    username = julianstephens
+
+[core]
+    editor = nvim
+
+[alias]
+    b = branch
+    c = commit
+    cm = commit -m
+    cam = commit -am
+    cl = clone
+    cp = cherry-pick
+    d = diff
+    co = checkout
+    ps = push
+    psom = push origin master
+    psuom = push -u origin master
+    pl = pull
+    rv = remote -v
+    ra = remote add
+    st = status
+    unstage = restore --staged 

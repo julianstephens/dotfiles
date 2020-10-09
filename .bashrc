@@ -151,4 +151,4 @@ export PATH="$PATH:$HOME/zk/bin"
 export ZK_PATH="/mnt/d/Zettelkasten"
 
 
-source .my_commands.sh
+source ~/.my_commands.sh
