@@ -43,6 +43,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'bouk/vim-markdown'
 	" Vim Pencil
 	Plug 'reedes/vim-pencil'
+	" Vim Go
+	Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 call plug#end()
 	
 

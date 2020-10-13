@@ -150,5 +150,11 @@ eval "$(rbenv init -)"
 export PATH="$PATH:$HOME/zk/bin"
 export ZK_PATH="/mnt/d/Zettelkasten"
 
+# Go config
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOME/golib
+export PATH=$PATH:$GOPATH/bin
+export GOPATH=/mnt/d/workspace/go
 
 source ~/.my_commands.sh
