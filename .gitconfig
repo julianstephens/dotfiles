@@ -13,11 +13,12 @@
     cam = commit -am
     cl = clone
     cp = cherry-pick
+    cv = cherry -v
     d = diff
     co = checkout
     ps = push
-    psom = push origin master
-    psuom = push -u origin master
+    psom = push origin main
+    psuom = push -u origin main
     pl = pull
     rv = remote -v
     ra = remote add

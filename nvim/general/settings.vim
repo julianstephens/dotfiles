@@ -31,11 +31,15 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 " set clipboard=unnamedplus               " Copy paste between vim and everything else
+autocmd FileType markdown setlocal spell " Enable spellcheck for markdown files
 
 augroup pencil
   autocmd!
-  autocmd FileType markdown,md,mkd call pencil#init({'wrap': 'hard', 'autoformat': 1})
+  autocmd FileType markdown,md,mkd call pencil#init({'wrap': 'hard', 'autoformat': 0})
+                               \ | call litecorrect#init()
   autocmd FileType text         call pencil#init()
+                               \ | call litecorrect#init()
 augroup END
+
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm
