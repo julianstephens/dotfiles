@@ -9,3 +9,4 @@ source $HOME/.config/nvim/plug-config/snips.vim
 source $HOME/.config/nvim/plug-config/nerdcommenter.vim
 source $HOME/.config/nvim/plug-config/bujo.vim
 source $HOME/.config/nvim/plug-config/pencil.vim
+source $HOME/.config/nvim/plug-config/vimgo.vim
