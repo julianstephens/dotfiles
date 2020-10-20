@@ -45,6 +45,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'reedes/vim-litecorrect'
 	" Vim Go
 	Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
+	" Vim goyo
+	Plug 'junegunn/goyo.vim'
 call plug#end()
 	
 
