@@ -47,6 +47,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 	" Vim goyo
 	Plug 'junegunn/goyo.vim'
+	" Vim surround
+	Plug 'tpope/vim-surround'
 call plug#end()
 	
 
