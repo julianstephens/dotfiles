@@ -2,6 +2,7 @@
 
 function create() {
     cd
+    mkdir /mnt/d/workspace/$1
     cd /mnt/d/workspace/$1
     git init
     git remote add origin git@github.com:julianstephens/$1
