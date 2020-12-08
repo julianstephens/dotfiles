@@ -26,7 +26,7 @@
         "sysPrefix": "/usr",
         "fileHash": "6ebb6e81200b3d38402beac81286743aa1507577e8c408cb9b9db75fabd47247b088e9a795bcf08b4c8ec4472f25a7594096f9f9303ce375f4a6016d899274f6"
       },
-      "expiry": 1606324170906
+      "expiry": 1607537202569
     },
     "/bin/python3.v3": {
       "data": {
@@ -51,7 +51,7 @@
         "sysPrefix": "/usr",
         "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd"
       },
-      "expiry": 1606324170904
+      "expiry": 1607537202567
     },
     "/usr/bin/python3.8.v3": {
       "data": {
@@ -76,7 +76,7 @@
         "sysPrefix": "/usr",
         "fileHash": "6ebb6e81200b3d38402beac81286743aa1507577e8c408cb9b9db75fabd47247b088e9a795bcf08b4c8ec4472f25a7594096f9f9303ce375f4a6016d899274f6"
       },
-      "expiry": 1606324170905
+      "expiry": 1607537202567
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -101,7 +101,7 @@
         "sysPrefix": "/usr",
         "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd"
       },
-      "expiry": 1606324170917
+      "expiry": 1607537202595
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
@@ -312,29 +312,6 @@
         "sysPrefix": "/usr",
         "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
         "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/usr/bin/python3",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/usr",
-        "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
-        "type": "Unknown"
       }
     ],
     "/home/julian/.local/share/virtualenvs/cs3600-itTdlsVF/bin/python.v3": {
@@ -399,14 +376,14 @@
         "displayName": "Python 3.8.5 64-bit",
         "hash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd-780bfd027e47c8675a40e5da6f434d4b"
       },
-      "expiry": 1606324171237
+      "expiry": 1607537202835
     },
     "/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit",
         "hash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd-440c0384431c6cbf39f894da4a6ec16e"
       },
-      "expiry": 1606324171166
+      "expiry": 1607537202916
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -491,11 +468,10 @@
           "sysPrefix": "/usr",
           "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
           "type": "Unknown",
-          "displayName": "Python 3.8.5 64-bit",
-          "__store": true
+          "displayName": "Python 3.8.5 64-bit"
         }
       },
-      "expiry": 1606324171231
+      "expiry": 1607537202905
     },
     "/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -522,10 +498,11 @@
           "sysPrefix": "/usr",
           "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
           "type": "Unknown",
-          "displayName": "Python 3.8.5 64-bit"
+          "displayName": "Python 3.8.5 64-bit",
+          "__store": true
         }
       },
-      "expiry": 1606324171216
+      "expiry": 1607537202911
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
@@ -863,6 +840,36 @@
     "INTERPRETERS_CACHE_v3_PipEnvService:1a198f07c647b3fa3061e16d9d80a563": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1a198f07c647b3fa3061e16d9d80a563": [],
     "autoSelectedWorkspacePythonInterpreter-/mnt/d/workspace/psypy": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/mnt/d/workspace/archive/cs3600": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1d502954486e7b62be5e41cd47fca808": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1d502954486e7b62be5e41cd47fca808": [],
+    "autoSelectedWorkspacePythonInterpreter-/mnt/d/workspace/archive/cs3600": {
       "architecture": 3,
       "path": "/bin/python3",
       "version": {
