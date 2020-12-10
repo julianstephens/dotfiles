@@ -35,7 +35,7 @@ autocmd FileType markdown,md,mkd setlocal spell " Enable spellcheck for markdown
 
 augroup pencil
   autocmd!
-  autocmd FileType markdown,md,mkd call pencil#init({'wrap': 'hard', 'autoformat': 0})
+  autocmd FileType markdown,md,mkd call pencil#init({'wrap': 'soft', 'autoformat': 1})
                                \ | call litecorrect#init()
   autocmd FileType text         call pencil#init()
                                \ | call litecorrect#init()

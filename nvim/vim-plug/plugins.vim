@@ -49,6 +49,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/goyo.vim'
 	" Vim surround
 	Plug 'tpope/vim-surround'
+	" Fzf
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+	Plug 'junegunn/fzf.vim'
 call plug#end()
 	
 
