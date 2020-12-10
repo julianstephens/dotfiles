@@ -52,6 +52,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 	Plug 'junegunn/fzf.vim'
+	" Unite Vim
+	Plug 'Shougo/unite.vim'
+	" Citation Vim
+	Plug 'rafaqz/citation.vim'
+	" Vim Limelight
+	Plug 'junegunn/limelight.vim'
+	" Thesaurus
+	Plug 'ron89/thesaurus_query.vim'
 call plug#end()
 	
 

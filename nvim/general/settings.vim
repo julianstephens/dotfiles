@@ -41,5 +41,7 @@ augroup pencil
                                \ | call litecorrect#init()
 augroup END
 
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm
