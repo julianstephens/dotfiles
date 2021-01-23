@@ -106,75 +106,6 @@
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
         "architecture": 3,
-        "path": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh",
-        "fileHash": "38248af25969ef24ad1a54df90e747e320bd5d3cca41b8df8f65553008b249a4a48758df43e4e41d711b728d606063cd1418238c9b9ad236159cd679ebbd84a4",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh/bin/python3",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh",
-        "fileHash": "38248af25969ef24ad1a54df90e747e320bd5d3cca41b8df8f65553008b249a4a48758df43e4e41d711b728d606063cd1418238c9b9ad236159cd679ebbd84a4",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh/bin/python3.8",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh",
-        "fileHash": "38248af25969ef24ad1a54df90e747e320bd5d3cca41b8df8f65553008b249a4a48758df43e4e41d711b728d606063cd1418238c9b9ad236159cd679ebbd84a4",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
         "path": "/usr/bin/python2",
         "version": {
           "options": {
@@ -545,7 +476,7 @@
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
         "architecture": 3,
-        "path": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh/bin/python3",
+        "path": "/usr/bin/python3",
         "version": {
           "options": {
             "loose": false,
@@ -562,8 +493,8 @@
           "build": [],
           "version": "3.8.5-final"
         },
-        "sysPrefix": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh",
-        "fileHash": "38248af25969ef24ad1a54df90e747e320bd5d3cca41b8df8f65553008b249a4a48758df43e4e41d711b728d606063cd1418238c9b9ad236159cd679ebbd84a4",
+        "sysPrefix": "/usr",
+        "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
         "type": "Unknown"
       },
       {
@@ -591,7 +522,7 @@
       },
       {
         "architecture": 3,
-        "path": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh/bin/python",
+        "path": "/usr/bin/python3",
         "version": {
           "options": {
             "loose": false,
@@ -608,31 +539,8 @@
           "build": [],
           "version": "3.8.5-final"
         },
-        "sysPrefix": "/home/julian/.local/share/virtualenvs/experiment_template-MXGuP1sh",
-        "fileHash": "38248af25969ef24ad1a54df90e747e320bd5d3cca41b8df8f65553008b249a4a48758df43e4e41d711b728d606063cd1418238c9b9ad236159cd679ebbd84a4",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template/env/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template/env",
-        "fileHash": "8dacbd838167515bb61be7496ab0e0c8da6f964308aa42bf443048bebc7763e59bd3a05a5e601a195f7aa5350f611495fdf9f29897a506b65df25e335052b503",
+        "sysPrefix": "/usr",
+        "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
         "type": "Unknown"
       }
     ],
@@ -1022,7 +930,7 @@
     },
     "InterpreterAutoSeletionRule-currentPath": {
       "architecture": 3,
-      "path": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template/env/bin/python",
+      "path": "/usr/bin/python3",
       "version": {
         "options": {
           "loose": false,
@@ -1039,8 +947,8 @@
         "build": [],
         "version": "3.8.5-final"
       },
-      "sysPrefix": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template/env",
-      "fileHash": "8dacbd838167515bb61be7496ab0e0c8da6f964308aa42bf443048bebc7763e59bd3a05a5e601a195f7aa5350f611495fdf9f29897a506b65df25e335052b503",
+      "sysPrefix": "/usr",
+      "fileHash": "b69fbd9ff570f6deb8f50a904dd2c8ee8b2c6940ed271b3b15a56da78c3f0c2c874d3f6ec6825193c980377155fe07d4549ec0e6ccf0739e9a0d0ae626cbc1cd",
       "type": "Unknown"
     },
     "/bin/python2.7.v3": {
@@ -1773,7 +1681,7 @@
         "type": "Venv"
       }
     ],
-    "SelectedPythonPath": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template/env/bin/python",
+    "SelectedPythonPath": "/usr/bin/python3",
     "autoSelectedWorkspacePythonInterpreter-/mnt/d/workspace/Elyse_FHWordOA/experiment_template": {
       "architecture": 3,
       "path": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template/env/bin/python3.8",
