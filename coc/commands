@@ -1,3 +1,4 @@
+python.setInterpreter
 python.setFormat
 python.setFormatter
 python.setLinter
