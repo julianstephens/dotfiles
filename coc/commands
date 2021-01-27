@@ -1,3 +1,4 @@
+pyright.organizeimports
 python.setInterpreter
 python.setFormat
 python.setFormatter

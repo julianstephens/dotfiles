@@ -60,8 +60,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/limelight.vim'
 	" Thesaurus
 	Plug 'ron89/thesaurus_query.vim'
-	" Vimcord
-	Plug 'loadingbg/vimcord'
 call plug#end()
 	
 
