@@ -60,6 +60,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/limelight.vim'
 	" Thesaurus
 	Plug 'ron89/thesaurus_query.vim'
+	" Nord Theme
+	Plug 'arcticicestudio/nord-vim'
+	" Iceberg Theme
+	Plug 'cocopon/iceberg.vim'
+	" Vim Indentline
+	Plug 'Yggdroot/indentLine'
 call plug#end()
 	
 
