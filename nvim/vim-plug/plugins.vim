@@ -66,6 +66,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'cocopon/iceberg.vim'
 	" Vim Indentline
 	Plug 'Yggdroot/indentLine'
+	" VimTex
+	Plug 'lervag/vimtex'
 call plug#end()
 	
 

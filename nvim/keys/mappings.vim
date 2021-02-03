@@ -41,9 +41,11 @@ inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
+" nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+" nnoremap <S-TAB> :bprevious<CR>
+:nnoremap <S-n> :bnext<CR>
+:nnoremap <S-p> :bprevious<CR>
 
 " Plug in mappings 
 nnoremap <leader>u :UndotreeShow<CR>
