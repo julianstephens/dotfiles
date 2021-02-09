@@ -157,4 +157,7 @@ export GOPATH=$HOME/golib
 export PATH=$PATH:$GOPATH/bin
 export GOPATH=/mnt/d/workspace/go
 
+# Todoist API Key
+export TODOIST_API_KEY="$(pass Todoist/API)"
+
 source ~/.my_commands.sh
