@@ -31,5 +31,8 @@
 				"go"
 			]
 		}
-	}
+	},
+	// eslint
+	"eslint.format.enable": true,
+	"eslint.nodePath": "/home/julian/.nvm/versions/node/v12.19.0/lib" 
 }

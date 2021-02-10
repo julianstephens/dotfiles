@@ -1832,5 +1832,8 @@
         "pipEnvWorkspaceFolder": "/mnt/d/workspace/Elyse_FHWordOA/experiment_template"
       }
     ]
+  },
+  "coc-eslint|global": {
+    "eslintAlwaysAllowExecution": true
   }
 }
