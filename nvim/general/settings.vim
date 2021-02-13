@@ -45,4 +45,9 @@ augroup END
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
+let clap_provider_todoist = {
+\ 'source': {-> Todoist__listProjects()},
+\ 'sink': 'Todoist',
+\}
+
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm

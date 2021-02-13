@@ -47,8 +47,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 	" Vim goyo
 	Plug 'junegunn/goyo.vim'
-	" Vim surround
-	Plug 'tpope/vim-surround'
 	" Fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 	Plug 'junegunn/fzf.vim'
@@ -68,6 +66,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'lervag/vimtex'
 	" Todoist
 	Plug 'romgrk/todoist.nvim', { 'do': ':TodoistInstall'  }
+	" Vim Clap
+	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
 call plug#end()
 	
 
