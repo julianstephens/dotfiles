@@ -9,8 +9,6 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'	
     " Undotree
     Plug 'mbbill/undotree'
     " Gitgutter
@@ -68,6 +66,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'romgrk/todoist.nvim', { 'do': ':TodoistInstall'  }
 	" Vim Clap
 	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
+	" Dart Lang
+	Plug 'dart-lang/dart-vim-plugin'
 call plug#end()
 	
 

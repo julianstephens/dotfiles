@@ -1,0 +1,21 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="1" last="1613428681427" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="1" last="1613428681761" />
+      </entry>
+      <entry key="WelcomeScreen.RunAndroidSdkManager">
+        <ActionSummary times="1" last="1613429032986" />
+      </entry>
+      <entry key="WelcomeScreen.Settings">
+        <ActionSummary times="1" last="1613428671693" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
+        <ActionSummary times="2" last="1613429030993" />
+      </entry>
+    </data>
+  </component>
+</application>
