@@ -163,5 +163,7 @@ export TODOIST_API_KEY="$(pass Todoist/API)"
 # Flutter
 export PATH="$PATH:$HOME/development/flutter/bin"
 
-
+# Custom bash commands
 source ~/.my_commands.sh
+
+eval "$(starship init bash)"

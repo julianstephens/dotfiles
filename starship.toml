@@ -1,0 +1,23 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Show battery at certain thresholds
+[[battery.display]]
+threshold = 10
+style = "bold red"
+
+[[battery.display]]  
+threshold = 30
+style = "bold yellow"
+
+# Custom error symbol
+[character]
+success_symbol = "[❯](bold green)" 
+error_symbol = "[✗](bold red) "
+
+[time]
+disabled = false
+format = '[\[$time\]]($style) '
+time_format = "%I:%M"
+utc_time_offset = "-5"
+time_range = "10:00:00-14:00:00"
