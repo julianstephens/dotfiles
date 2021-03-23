@@ -1,3 +1,4 @@
+tsserver.restart
 document.renameCurrentWord
 prettier.formatFile
 eslint.showOutputChannel

@@ -9,6 +9,7 @@
     "coc-pyright": ">=1.1.105",
     "coc-snippets": ">=2.4.0",
     "coc-todolist": ">=1.5.0",
+    "coc-tsserver": ">=1.6.8",
     "coc-vimlsp": ">=0.11.0",
     "coc-vimtex": ">=1.0.4"
   }
