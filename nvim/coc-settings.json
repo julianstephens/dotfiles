@@ -34,5 +34,8 @@
 	},
 	// eslint
 	"eslint.format.enable": true,
-	"eslint.nodePath": "/home/julian/.nvm/versions/node/v12.19.0/lib" 
+	"eslint.nodePath": "/home/julian/.nvm/versions/node/v12.19.0/lib", 
+	// tsserver
+	"tsserver.enable": true,
+	"tsserver.npm": "/home/julian/.nvm/versions/node/v14.16.0/bin/npm"
 }
