@@ -1,6 +1,12 @@
 # Don't print a new line at the start of the prompt
 add_newline = false
 
+# Battery symbols
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
 # Show battery at certain thresholds
 [[battery.display]]
 threshold = 10
