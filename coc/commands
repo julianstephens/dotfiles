@@ -1,3 +1,4 @@
+pyright.organizeimports
 tsserver.restart
 document.renameCurrentWord
 prettier.formatFile
@@ -5,7 +6,6 @@ eslint.showOutputChannel
 help
 workspace.diffDocument
 list
-pyright.organizeimports
 python.setInterpreter
 python.setFormat
 python.setFormatter
