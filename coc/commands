@@ -1,6 +1,6 @@
+document.renameCurrentWord
 pyright.organizeimports
 tsserver.restart
-document.renameCurrentWord
 prettier.formatFile
 eslint.showOutputChannel
 help
