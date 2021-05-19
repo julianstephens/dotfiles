@@ -14,3 +14,4 @@ source $HOME/.config/nvim/plug-config/pencil.vim
 source $HOME/.config/nvim/plug-config/vimgo.vim
 source $HOME/.config/nvim/plug-config/citation.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
+source $HOME/.config/nvim/plug-config/dashboard.vim

@@ -68,6 +68,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
 	" Dart Lang
 	Plug 'dart-lang/dart-vim-plugin'
+	" Dashboard
+	Plug 'glepnir/dashboard-nvim'
 call plug#end()
 	
 
