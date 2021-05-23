@@ -25,3 +25,4 @@
     st = status
     unstage = restore --staged 
     change = branch -m master main
+    reset = reset --soft HEAD~1
