@@ -26,3 +26,8 @@
     unstage = restore --staged 
     change = branch -m master main
     reset = reset --soft HEAD~1
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
