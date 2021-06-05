@@ -8,5 +8,9 @@
   "L21udC9kL3dvcmtzcGFjZS9FbHlzZV9GSFdvcmRPQS9leHBlcmltZW50X3RlbXBsYXRl": [
     "py",
     "pyrigh"
+  ],
+  "L21udC9kL3dvcmtzcGFjZS9zY2hlZHVsaW5nLXN5c3RlbQ==": [
+    "tsserver",
+    "restart"
   ]
 }
