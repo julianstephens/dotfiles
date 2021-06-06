@@ -68,12 +68,12 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
-unset color_prompt force_color_prompt
+# if [ "$color_prompt" = yes ]; then
+#     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+# else
+#     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+# fi
+# unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
@@ -138,7 +138,7 @@ if [ -z "$SSH_AUTH_SOCK"  ] ; then
         ssh-add
 fi
 
-# WSL Disply Config
+# WSL Display Config
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 
 export LIBGL_ALWAYS_INDIRECT=1
 
@@ -150,7 +150,7 @@ eval "$(rbenv init -)"
 export PATH="$PATH:$HOME/zk/bin"
 export ZK_PATH="/mnt/d/Zettelkasten"
 
-# Go config
+# Go Config
 export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
 export GOPATH=$HOME/golib
@@ -162,6 +162,9 @@ export TODOIST_API_KEY="$(pass Todoist/API)"
 
 # Flutter
 export PATH="$PATH:$HOME/development/flutter/bin"
+
+# fzf
+export FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
 
 # Custom bash commands
 source ~/.my_commands.sh
