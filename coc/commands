@@ -1,3 +1,4 @@
+explorer
 tsserver.restart
 document.renameCurrentWord
 pyright.organizeimports
