@@ -58,6 +58,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'ron89/thesaurus_query.vim'
 	" Iceberg Theme
 	Plug 'cocopon/iceberg.vim'
+	" Nord Theme
+	Plug 'arcticicestudio/nord-vim'
 	" Vim Indentline
 	Plug 'Yggdroot/indentLine'
 	" VimTex
@@ -70,6 +72,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'dart-lang/dart-vim-plugin'
 	" Dashboard
 	Plug 'glepnir/dashboard-nvim'
+	" Surround
+	Plug 'tpope/vim-surround'
 call plug#end()
 	
 
