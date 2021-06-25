@@ -2,6 +2,7 @@
   "dependencies": {
     "coc-angular": ">=11.2.9",
     "coc-css": ">=1.2.6",
+    "coc-discord-rpc": ">=5.0.1",
     "coc-emmet": ">=1.1.6",
     "coc-eslint": ">=1.4.5",
     "coc-explorer": ">=0.18.3",

@@ -29,5 +29,9 @@
   "eslint.nodePath": "/home/julian/.nvm/versions/node/v14.16.0/bin/node",
   // tsserver
   "tsserver.enable": true,
-  "tsserver.npm": "/home/julian/.nvm/versions/node/v14.16.0/bin/npm"
+  "tsserver.npm": "/home/julian/.nvm/versions/node/v14.16.0/bin/npm",
+  // discord rpc
+  "rpc.enabled": true,
+  "rpc.workspaceElapsedTime": true,
+  "rpc.detailsEditing": "{filename}"
 }
