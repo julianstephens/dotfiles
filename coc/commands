@@ -1,6 +1,6 @@
+explorer
 tsserver.organizeImports
 rpc.version
-explorer
 tsserver.restart
 document.renameCurrentWord
 pyright.organizeimports

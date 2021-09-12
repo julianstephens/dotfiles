@@ -8,8 +8,8 @@ nnoremap <leader>n :source %<CR>
 
 " Better window navigation
 nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
+nnoremap <C-j> :wincmd j<CR>
+nnoremap <C-k> :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 
 " Use alt + hjkl to resize windows
