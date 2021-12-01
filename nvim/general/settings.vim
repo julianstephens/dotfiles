@@ -30,6 +30,7 @@ set nowritebackup                       " This is recommended by coc
 set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
+set laststatus=2                        " Always display statusline 
 
 " set clipboard=unnamedplus               " Copy paste between vim and everything else
 autocmd FileType markdown,md,mkd setlocal spell " Enable spellcheck for markdown files

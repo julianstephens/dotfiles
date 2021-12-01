@@ -2,19 +2,18 @@
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  "autocmd VimEnter * PlugInstall
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " Undotree
-    Plug 'mbbill/undotree'
     " Gitgutter
     Plug 'airblade/vim-gitgutter'
-    " Airline
+	Plug 'ryanoasis/vim-devicons'
+	" Airline
 	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 	" Dark theme
 	Plug 'joshdick/onedark.vim'
 	" Auto pairs
@@ -29,8 +28,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'pixelneo/vim-python-docstring'
 	" Coc completion
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Ranger
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " Vim Snippets
     Plug 'honza/vim-snippets'
     " Vim Bujo - Todo
@@ -55,25 +52,32 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Vim Limelight
 	Plug 'junegunn/limelight.vim'
 	" Thesaurus
-	Plug 'ron89/thesaurus_query.vim'
+	" Plug 'ron89/thesaurus_query.vim'
 	" Iceberg Theme
 	Plug 'cocopon/iceberg.vim'
 	" Nord Theme
 	Plug 'arcticicestudio/nord-vim'
-	" Vim Indentline
-	Plug 'Yggdroot/indentLine'
 	" VimTex
 	Plug 'lervag/vimtex'
 	" Todoist
 	Plug 'romgrk/todoist.nvim', { 'do': ':TodoistInstall'  }
 	" Vim Clap
 	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
-	" Dart Lang
-	Plug 'dart-lang/dart-vim-plugin'
 	" Dashboard
 	Plug 'glepnir/dashboard-nvim'
 	" Surround
 	Plug 'tpope/vim-surround'
+	" Rainbow Parenthesis
+	Plug 'luochen1990/rainbow'
+	" Indent Line
+	Plug 'lukas-reineke/indent-blankline.nvim'
+	" Which Key
+	Plug 'liuchengxu/vim-which-key'
+	" Tokyo Nights Theme
+	" Plug 'ghifarit53/tokyonight-vim'
+	Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+	" Auto Close Tags
+	Plug 'alvan/vim-closetag'
 call plug#end()
 	
 

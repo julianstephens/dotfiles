@@ -1,15 +1,4 @@
-explorer
 tsserver.organizeImports
-rpc.version
-tsserver.restart
-document.renameCurrentWord
-pyright.organizeimports
-prettier.formatFile
+explorer
+tsserver.openTsServerLog
 eslint.showOutputChannel
-help
-workspace.diffDocument
-list
-python.setInterpreter
-python.setFormat
-python.setFormatter
-python.setLinter

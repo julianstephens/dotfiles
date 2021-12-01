@@ -1,23 +1,27 @@
 " Better saving and quitting
-noremap <leader>s :w<CR>
+noremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>Q :q!<CR>
 
 " Quick source current file
-nnoremap <leader>n :source %<CR>
+nnoremap <leader>s :source %<CR>
 
 " Better window navigation
-nnoremap <leader>h :wincmd h<CR>
+nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-j> :wincmd j<CR>
 nnoremap <C-k> :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
+nnoremap <C-l> :wincmd l<CR>
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>
 nnoremap <M-k>    :resize +2<CR>
 nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
-nnoremap <Leader>rp :resize 100<CR>
+nnoremap <leader>rp :resize 100<CR>
+
+" Split panes
+nnoremap vs :vsp<CR>
+nnoremap sp :sp<CR>
 
 " Turn off highlighting
 nnoremap <leader>nh :nohl<CR>
@@ -41,40 +45,11 @@ inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
-" nnoremap <TAB> :bnext<CR>
+nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
-" nnoremap <S-TAB> :bprevious<CR>
-:nnoremap <S-n> :bnext<CR>
-:nnoremap <S-p> :bprevious<CR>
+nnoremap <S-TAB> :bprevious<CR>
 
 " Plug in mappings 
-nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <Leader>ps :Rg<SPACE>
-nnoremap <C-p> :GFiles<CR>
-nnoremap <C-f> :Files<CR>
-nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
-nnoremap <Leader>ee oif err != nil {<CR>log.Fatalf("%+v\n", err)<CR>}<CR><esc>kkI<esc>
-vnoremap J :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
-nnoremap <space>e :CocCommand explorer<CR>
-
-" Python Doctring
-nnoremap <leader>d :Docstring<CR>
-nnoremap <leader>dl :DocstringLine<CR>
-
-" EasyMotion navigation
-" <Leader>f{char} to move to {char}
-map  <Leader>f <Plug>(easymotion-bd-f)
-nmap <Leader>f <Plug>(easymotion-overwin-f)
-
-" s{char}{char} to move to {char}{char}
-nmap s <Plug>(easymotion-overwin-f2)
-
-" Move to line
-map <Leader>L <Plug>(easymotion-bd-jk)
-nmap <Leader>L <Plug>(easymotion-overwin-line)
-
-" Move to word
-map  <Leader>w <Plug>(easymotion-bd-w)
-nmap <Leader>w <Plug>(easymotion-overwin-w)"
+nnoremap <leader>e :CocCommand explorer<CR>
