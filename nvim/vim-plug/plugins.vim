@@ -10,10 +10,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " Gitgutter
     Plug 'airblade/vim-gitgutter'
-	Plug 'ryanoasis/vim-devicons'
+	" Lualine
+	Plug 'nvim-lualine/lualine.nvim'
+	Plug 'kyazdani42/nvim-web-devicons'
 	" Airline
-	Plug 'vim-airline/vim-airline'
-	Plug 'vim-airline/vim-airline-themes'
+	" Plug 'vim-airline/vim-airline'
+	" Plug 'vim-airline/vim-airline-themes'
 	" Dark theme
 	Plug 'joshdick/onedark.vim'
 	" Auto pairs
@@ -62,7 +64,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Todoist
 	Plug 'romgrk/todoist.nvim', { 'do': ':TodoistInstall'  }
 	" Vim Clap
-	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
+	" Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
 	" Dashboard
 	Plug 'glepnir/dashboard-nvim'
 	" Surround
@@ -78,6 +80,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 	" Auto Close Tags
 	Plug 'alvan/vim-closetag'
+	" Treesitter
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+	" Telescope
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 	
 

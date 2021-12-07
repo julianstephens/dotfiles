@@ -16,3 +16,5 @@ source $HOME/.config/nvim/plug-config/citation.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
 source $HOME/.config/nvim/plug-config/dashboard.vim
 source $HOME/.config/nvim/plug-config/whichkey.vim
+source $HOME/.config/nvim/plug-config/lualine.vim
+source $HOME/.config/nvim/plug-config/treesitter.vim

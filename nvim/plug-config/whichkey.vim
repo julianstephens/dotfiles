@@ -17,17 +17,13 @@ let g:which_key_map["Q"] = 'which_key_ignore'
 let g:which_key_map["/"] = 'which_key_ignore'
 
 " Clap
-nnoremap <leader>ff :Clap files<CR>
-nnoremap <leader>fe :Clap filer<CR>
-nnoremap <leader>fg :Clap grep2<CR>
-nnoremap <leader>fr :Clap recent_files<CR>
-nnoremap <leader>fb :Clap buffers<CR>
+nnoremap <leader>ff <cmd>Telescope find_files prompt_prefix=🔍<CR>
+nnoremap <leader>fg <cmd>Telescope live_grep<CR>
+nnoremap <leader>fb <cmd>Telescope buffers<CR>
 let g:which_key_map.f = {
       \ 'name': '+Files',
       \ 'f': 'Finder',
-      \ 'e': 'Explore',
       \ 'g'   : 'Grep',
-      \ 'r'   : 'Recent files',
       \ 'b'   : 'Buffers',
       \ }
 
