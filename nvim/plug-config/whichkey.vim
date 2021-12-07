@@ -19,11 +19,13 @@ let g:which_key_map["/"] = 'which_key_ignore'
 " Clap
 nnoremap <leader>ff <cmd>Telescope find_files prompt_prefix=🔍<CR>
 nnoremap <leader>fg <cmd>Telescope live_grep<CR>
+nnoremap <leader>fh <cmd>Telescope oldfiles<CR>
 nnoremap <leader>fb <cmd>Telescope buffers<CR>
 let g:which_key_map.f = {
       \ 'name': '+Files',
       \ 'f': 'Finder',
       \ 'g'   : 'Grep',
+      \ 'h'   : 'History',
       \ 'b'   : 'Buffers',
       \ }
 
@@ -79,34 +81,29 @@ let g:which_key_map.d = {
       \ }
 
 " Theme/Todo
-let g:which_key_map.t = { 
-      \ 'name': 'Theme/Todo' , 
+let g:which_key_map["g"] = { 
+      \ 'name': '+Theme/Todo' , 
       \ 'c': 'Change theme' , 
       \ 'g': 'Git todo' , 
       \ 't': 'General todo' , 
       \ }
 
-" GitGutter
-let g:which_key_map.h = { 'name' : 'GitGutter' }
-
-" EasyMotion navigation
-" Move to line
-map <leader>ml <Plug>(easymotion-bd-jk)
-nmap <leader>ml <Plug>(easymotion-overwin-line)
-" Move to word
-map  <leader>mw <Plug>(easymotion-bd-w)
-nmap <leader>mw <Plug>(easymotion-overwin-w)"
-let g:which_key_map.m = { 
-      \ 'name': 'EasyMotion' , 
-      \ 'w': 'Move word' , 
-      \ 'l': 'Move line' , 
+" ToggleTerm
+nnoremap <leader>tt :ToggleTerm<CR>
+nnoremap <leader>ta :ToggleTerm direction=tab<CR>
+nnoremap <leader>tf :ToggleTerm direction=float<CR>
+let g:which_key_map["t"] = { 
+      \ 'name': '+ToggleTerm' , 
+      \ 't': 'Bottom Term' , 
+      \ 'a': 'Tab Term' , 
+      \ 'f': 'Floating Term' , 
       \ }
 
 nnoremap <leader>pi :PlugInstall<CR>
 nnoremap <leader>pc :PlugClean<CR>
 nnoremap <leader>pu :PlugUpdate<CR>
 let g:which_key_map.p = { 
-      \ 'name': 'Plug' , 
+      \ 'name': '+Plug' , 
       \ 'i': 'Install' , 
       \ 'c': 'Clean' , 
       \ 'u': 'Update' , 

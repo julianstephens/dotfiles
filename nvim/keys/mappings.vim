@@ -52,4 +52,8 @@ nnoremap <S-TAB> :bprevious<CR>
 " Plug in mappings 
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <Leader>ps :Rg<SPACE>
-nnoremap <leader>e :CocCommand explorer<CR>
+nnoremap <leader>e :NvimTreeToggle<cr>
+nnoremap mw :HopWord<cr>
+nnoremap ml :HopLineStart<cr>
+nnoremap <leader>/ :CommentToggle<cr>
+vnoremap <leader>/ :CommentToggle<cr>

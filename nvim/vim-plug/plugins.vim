@@ -13,19 +13,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Lualine
 	Plug 'nvim-lualine/lualine.nvim'
 	Plug 'kyazdani42/nvim-web-devicons'
-	" Airline
-	" Plug 'vim-airline/vim-airline'
-	" Plug 'vim-airline/vim-airline-themes'
-	" Dark theme
+	" OneDark theme
 	Plug 'joshdick/onedark.vim'
-	" Auto pairs
-	Plug 'jiangmiao/auto-pairs'
-	" NerdCommenter
-	Plug 'preservim/nerdcommenter'
+	" Comment
+	Plug 'terrortylor/nvim-comment'
 	" Auto change html tags
   	Plug 'AndrewRadev/tagalong.vim'
-	" Text navigation
-	Plug 'easymotion/vim-easymotion'
 	" Python docstrings
 	Plug 'pixelneo/vim-python-docstring'
 	" Coc completion
@@ -34,16 +27,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'honza/vim-snippets'
     " Vim Bujo - Todo
     Plug 'vuciv/vim-bujo'
-	" Vim Markdown
-	Plug 'bouk/vim-markdown'
-	" Vim Pencil
-	Plug 'reedes/vim-pencil'
-	" Vim Autocorrect
-	Plug 'reedes/vim-litecorrect'
-	" Vim Go
-	Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
-	" Vim goyo
-	Plug 'junegunn/goyo.vim'
 	" Fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 	Plug 'junegunn/fzf.vim'
@@ -53,38 +36,41 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'rafaqz/citation.vim'
 	" Vim Limelight
 	Plug 'junegunn/limelight.vim'
-	" Thesaurus
-	" Plug 'ron89/thesaurus_query.vim'
 	" Iceberg Theme
 	Plug 'cocopon/iceberg.vim'
 	" Nord Theme
 	Plug 'arcticicestudio/nord-vim'
-	" VimTex
-	Plug 'lervag/vimtex'
-	" Todoist
-	Plug 'romgrk/todoist.nvim', { 'do': ':TodoistInstall'  }
-	" Vim Clap
-	" Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!'  }
 	" Dashboard
-	Plug 'glepnir/dashboard-nvim'
+	Plug 'goolord/alpha-nvim'
 	" Surround
 	Plug 'tpope/vim-surround'
-	" Rainbow Parenthesis
-	Plug 'luochen1990/rainbow'
 	" Indent Line
 	Plug 'lukas-reineke/indent-blankline.nvim'
 	" Which Key
 	Plug 'liuchengxu/vim-which-key'
 	" Tokyo Nights Theme
-	" Plug 'ghifarit53/tokyonight-vim'
 	Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 	" Auto Close Tags
 	Plug 'alvan/vim-closetag'
 	" Treesitter
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+	Plug 'p00f/nvim-ts-rainbow'
+	Plug 'windwp/nvim-ts-autotag'
 	" Telescope
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-telescope/telescope.nvim'
+	" ToggleTerm
+	Plug 'akinsho/toggleterm.nvim'
+	" Tree
+	Plug 'kyazdani42/nvim-tree.lua'
+	" Buffer line
+	Plug 'akinsho/bufferline.nvim'
+	" Hop
+	Plug 'phaazon/hop.nvim'
+	" Dial
+	Plug 'monaqa/dial.nvim'
+	" Autopairs
+	Plug 'windwp/nvim-autopairs'
 call plug#end()
 	
 
