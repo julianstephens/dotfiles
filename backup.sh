@@ -8,6 +8,7 @@ rsync ~/.bash_logout ~/dotfiles/.bash_logout
 rsync ~/.my_commands.sh ~/dotfiles/.my_commands.sh
 rsync ~/.tmux.conf ~/dotfiles/.tmux.conf
 rsync ~/.gitconfig ~/dotfiles/.gitconfig
+rsync ~/.dircolors ~/dotfiles/.dircolors
 rsync ~/backup.sh ~/dotfiles/backup.sh
 
 # Commit changes and push to github if there are any
