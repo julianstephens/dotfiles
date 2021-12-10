@@ -1,0 +1,42 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "csx",
+    "jsx"
+  ],
+  "npm.binPath": "/home/julian/.nvm/versions/node/v16.13.0/bin/npm",
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  },
+  // eslint
+  "eslint.format.enable": true,
+  "eslint.nodePath": "/home/julian/.nvm/versions/node/v16.13.0/bin/node",
+  // tsserver
+  "tsserver.enable": true,
+  "tsserver.enableJavascript": true,
+  "tsserver.npm": "/home/julian/.nvm/versions/node/v16.13.0/bin/npm",
+  "tsserver.log": "verbose",
+  "tsserver.trace.server": "verbose"
+  // discord rpc
+  // "rpc.enabled": true,
+  // "rpc.workspaceElapsedTime": true,
+  // "rpc.detailsEditing": "{filename}"
+}
