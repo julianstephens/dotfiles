@@ -117,10 +117,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 # Go Config
 export GOROOT=/usr/local/go
-export PATH=$PATH:$GOROOT/bin
-export GOPATH=$HOME/golib
-export PATH=$PATH:$GOPATH/bin
-export GOPATH=/mnt/d/workspace/go
+export GOPATH=~/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # fzf
 export FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
@@ -140,8 +138,33 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export TMPDIR="/tmp"
+
 # Created by `pipx` on 2021-11-29 14:21:40
 export PATH="$PATH:/home/julian/.local/bin"
-. "$HOME/.cargo/env"
+export PATH="$PATH:/home/julian/.cargo/bin"
 
 eval "$(starship init bash)"
+
+source ~/.ydl.sh
+
+alias luamake=/home/julian/.config/nvim/lua-language-server/3rd/luamake/luamake
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/julian/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/julian/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/julian/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/julian/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+. "$HOME/.cargo/env"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
