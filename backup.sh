@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 date=`date +"%Y-%m-%dT%H:%M:%S%z"`
-echo $date
 
 # Sync config files with git repo
 rsync ~/.bashrc ~/dotfiles/shell/.bashrc
@@ -18,7 +17,7 @@ cd ~/dotfiles/
 if [  -n "$(git status --porcelain)"  ]; then
     git add .
     git commit -m "Logout backup - ${date}"
-    git push origin master
+    git push origin main
 fi
 
 # source ~/.backup.sh
