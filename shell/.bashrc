@@ -112,8 +112,8 @@ if [ -z "$SSH_AUTH_SOCK"  ] ; then
 fi
 
 # WSL Display Config
-export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 
-export LIBGL_ALWAYS_INDIRECT=1
+# export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 
+# export LIBGL_ALWAYS_INDIRECT=1
 
 # Go Config
 export GOROOT=/usr/local/go
