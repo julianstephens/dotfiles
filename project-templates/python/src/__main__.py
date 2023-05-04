@@ -1,4 +1,4 @@
-"""Entry point for project_name."""
+"""Entry point for ."""
 
 from .cli import main
 
