@@ -100,6 +100,7 @@ const main = async () => {
     `Initializing Poetry project with dev dependencies...`,
     async () => {
       cd(PROJ_DIR);
+      await $`mkdir -p ${PROJ_DIR}/${PNAME}/data`;
       await $`mkdir -p ${PROJ_DIR}/${PNAME}/src`;
       await $`poetry init -n -q`;
       await $`poetry add -nq -G dev ${DEV_DEPS}`;
@@ -115,7 +116,7 @@ const main = async () => {
         await $`cp ${TEMP_DIR}/${k} ${PROJ_DIR}/${v}`;
       });
 
-      await $`cp ${TEMP_DIR}/files/data/* ${PROJ_DIR}/${PNAME}/data/.`;
+      await $`cp -r ${TEMP_DIR}/files/data/* ${PROJ_DIR}/${PNAME}/data/.`;
       await $`cp ${TEMP_DIR}/files/src/* ${PROJ_DIR}/${PNAME}/src/.`;
 
       if (USE_EMOJI) {
