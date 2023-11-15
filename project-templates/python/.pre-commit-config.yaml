@@ -1,6 +1,6 @@
 repos:
  -  repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
       - id: check-added-large-files
@@ -10,43 +10,25 @@ repos:
       - id: commitlint
         stages: [commit-msg]
  -  repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v2.7.1
+    rev: v3.0.3
     hooks:
       - id: prettier
         types: [json, yaml, toml, markdown, makefile]
  - repo: https://github.com/pre-commit/mirrors-mypy
-   rev: v1.2.0
+   rev: v1.6.1
    hooks:
     - id: mypy
       args: [--no-strict-optional, --ignore-missing-imports]
       files: ^(src/)
  - repo: https://github.com/python-poetry/poetry
-   rev: 1.4.2
+   rev: '1.7.0'  # add version here
    hooks:
     - id: poetry-check
     - id: poetry-lock
     - id: poetry-export
- - repo: local
+    - id: poetry-install
+ - repo: https://github.com/astral-sh/ruff-pre-commit
+   rev: v0.1.4
    hooks:
-     - id: black
-       name: black
-       entry: black
-       language: system
-       types: [ python ]
-       files: ^(src/)
-     - id: isort
-       name: isort
-       entry: isort
-       language: system
-       args: ['--profile=black']
-     - id: flake8
-       name: flake8
-       entry: flake8
-       language: system
-       types: [ python ]
-       files: ^(src/)
-     - id: pydocstyle
-       name: pydocstyle
-       entry: pydocstyle
-       language: system
-       args: ['--convention=google', '--add-ignore=D100,D101,D102,D103,D104,D105,D106,D107']
+    - id: ruff
+    - id: ruff-format
